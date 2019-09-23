@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>TIB Academy</title>
-</head>
-<body>
-<img src="TIB.png" width="190px" height="120px">
-<h1>Registreren</h1>
-<h3>Wat is jouw naam?</h3>
-<h6><input type="text" name="name"></h6>
-<h3>Wat is jouw geslacht?</h3>
-<h4><label>Man<input type="checkbox" name="Man"></label></h4>
-<h4><label>Vrouw<input type="checkbox" name="Vrouw"></label></h4>
-<h3>Wat is jouw geboortedatum?</h3>
-<input type="text" name="1" style="width: 18px"><input type="text" name="1" style="width: 18px"><input type="text" name="1" style="width: 36px">
-<h3><input type="submit" name="Registreer!"></h3>
-</body>
+	<html>
+		<head>
+			<link rel="stylesheet" href="style.css">
+				<title>TIB Academy</title>
+		</head>
+
+		<body>
+			<img src="TIB.png" width="190px" height="120px">
+
+				<h1>Registreren</h1>
+			<form action="" method="get" class="form">
+					<label for="name">Wat is jouw naam?</label>
+					<div class="form">
+						<h6>
+							<input type="text" name="name" required class="input">
+						</h6>
+					</div>
+				<div class="form">
+					<input type="submit" value="Registreer!">
+				</div>
+			</form>
+		</body>
 </html>
